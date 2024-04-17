@@ -1,0 +1,43 @@
+.tabCon {
+    min-height: 110vh;
+    width: 100%;
+    background-image: url(/images/layers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    overflow: hidden;
+    perspective: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tabCon p {
+    font-size: 3rem;
+    color: var(--light-text);
+}
+
+.tabCon h2 {
+    font-size: 8vw;
+    color: var(--light-text);
+    font-family: BeniBold;
+}
+
+.per-tab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+    overflow: hidden;   
+}
+
+.tab {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 90vh;
+    width: auto;
+    transform: rotateX(0deg);
+}

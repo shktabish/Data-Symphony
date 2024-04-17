@@ -1,0 +1,38 @@
+.profileContainer {
+    height: calc(100vh - 80px);
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 25px;
+    padding: 25px;
+    background-color: var(--primary-color);
+}
+
+.borderRadius {
+    border-radius: 2rem;
+}
+
+.photo {
+    grid-row: 1 / span 4;
+    grid-column: 1 / span 2;
+    background-color: var(--secondary-color);
+}
+
+.about {
+    grid-row: 1 / span 2;
+    grid-column: 3 / span 2;
+    background-color: var(--primary-shade);
+}
+
+.contact {
+    grid-row: 3 / span 2;
+    grid-column: 3 / span 1;
+    background-color: var(--contrast-color);
+}
+
+.misc {
+    grid-row: 3 / span 2;
+    grid-column: 4 / span 1;
+    background-color: var(--contrast-shade);
+}

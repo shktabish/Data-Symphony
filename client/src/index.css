@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #eeebe4;
+  --primary-shade: #c1bcb2;
+  --secondary-color: #23272a;
+  --contrast-color: #856454;
+  --light-text: #fff;
+  --dark-text : #23272a;
+  --contrast-shade: #3a312c;
+}
+
+/* ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
+} */
+
+@font-face {
+  font-family: BeniBold;
+  src: url('/fonts/BeniBold.ttf');
+}
+
+@font-face {
+  font-family: normal;
+  src: url('/fonts/Normal.otf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: normal;
+  overflow-x: hidden;
+  color: var(--dark-text);
+}
+
+a {
+  text-decoration: none;
+}

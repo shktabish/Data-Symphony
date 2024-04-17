@@ -1,0 +1,20 @@
+.why-con {
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.why-header {
+    text-align: center;
+    font-size: 5rem;
+    margin: 5vh auto;
+    font-family: BeniBold;
+}
+
+.cards-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    perspective: 800px;
+    padding: 20px 0;
+}

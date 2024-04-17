@@ -1,0 +1,36 @@
+.faq-accordian {
+    height: 100%;
+    width: 80%;
+    border-bottom: 1px solid white;
+}
+
+.ques, .ans {
+    color: var(--light-text);
+    font-family: normal;
+}
+
+.ques {
+    font-size: 1.75rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 1.5vh 0;
+}
+
+.ans {
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+    overflow-y: hidden;
+    margin-bottom: 1.5vh;
+    font-weight: 200;
+}
+
+.icon {
+    fill: white;
+    margin-right: 30px;
+    scale: 2;
+    transition: all 0.5s ease;
+}
+
+.open {
+    transform: rotate(180deg);
+}

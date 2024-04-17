@@ -1,0 +1,24 @@
+.about-con {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--secondary-color);
+}
+
+.about-text {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 80%;
+}
+
+.about-text span, .char {
+    font-size: 12vh;
+    font-family: BeniBold;
+    color: #706C6D;
+}
+
+.word {
+    height: 13vh;
+    overflow: hidden;
+}

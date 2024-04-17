@@ -1,0 +1,27 @@
+.card {
+    height: 65vh;
+    aspect-ratio: 3/4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px 20px;
+    transition: all 10ms linear;
+}
+
+.card-img {
+    height: 30vh;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-head {
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.faq-con {
+    min-height: 100vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.faq-con h2 {
+    font-family: BeniBold;
+    color: var(--light-text);
+    font-size: 7vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.acc-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

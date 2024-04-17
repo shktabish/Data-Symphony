@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.heroCon {
+    height: 90vh;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.nav {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: auto;
+    color: var(--dark-text);
+}
+
+.signupBtn, .loginBtn {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.signupBtn {
+    border: 1px solid var(--secondary-color);
+    font-weight: 700;
+}
+
+.loginBtn {
+    background-color: var(--contrast-color);
+    color: var(--light-text);
+    padding: 10px 30px;
+    color: var(--light-text);
+    font-weight: 700;
+}
+
+.tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 68vh;
+    overflow: hidden;
+}
+
+.tagline > div{
+    font-family: BeniBold;;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.pill {
+    background-color: var(--contrast-color);
+    border-radius: 300px;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+@keyframes slide {
+    from {
+        transform: translate(0%);
+    }
+
+    to {
+        transform: translate(-50%) translate(-10px);
+    }
+}
+
+.carousel-con {
+    height: 10vh;
+    width: 100%;
+    background-color: var(--contrast-color);
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 100%;
+    gap: 20px;
+    animation: slide 20s linear infinite;
+}
+
+.carousel span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--light-text);
+}
